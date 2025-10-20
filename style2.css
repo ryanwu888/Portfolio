@@ -1,0 +1,123 @@
+.custom-font {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 { /* Title */
+    font-size: 60px;
+    margin-left: 20px;
+  }
+  h2 { /* Name */
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  h3 { /* TOC Title */
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+  }
+  h4 { /* Information Title */
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  h5 { /* Information subtitle */
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  p1 { /* Information Content */
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  p10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container1 { /* Stack Vertically */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .container2 { /* Align Horizontally */
+    display: flex;
+    gap: 100px;
+  }
+  .container3 { /* Align Horizontally (For Title and Image) */
+    display: flex;
+    flex-direction: row;
+    gap: -240px;
+  }
+  
+  .title-box {
+    width: 700px; /* Set the width of the box */
+    height: 160px; /* Set the height of the box */
+    border-radius: 45%;
+    border: 2px solid black; /* Set the border properties of the box */
+    color: black; /* Set the text color inside the box */
+    margin-left: 200px;
+  }
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    border-radius: 50%;
+    border: 2px solid black; /* Set the border properties of the box */
+    text-align: left; /* Center the text inside the box */
+    color: black; /* Set the text color inside the box */
+    margin-top: 0px;
+    margin-left: -880px;
+    position: relative;
+}
+.name-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Set the width of the box */
+    height: 40px; /* Set the height of the box */
+    border-radius: 20%;
+    border: 2px solid black; /* Set the border properties of the box */
+    text-align: left; /* Center the text inside the box */
+    color: black; /* Set the text color inside the box */
+    margin-top: -190px;
+    margin-left: 720px;
+    position: relative;
+}
+  
+  .table-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px; /* Set the width of the box */
+    height: 270px; /* Set the height of the box */
+    border-radius: 30%;
+    border: 2px solid black; /* Set the border properties of the box */
+    text-align: left; /* Center the text inside the box */
+    color: black; /* Set the text color inside the box */
+    margin-top: -50px;
+    position: relative;
+  }
+  
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    width: 750px; /* Set the width of the box */
+    height: 640px; /* Set the height of the box */
+    border-radius: 10%;
+    border: 2px solid black; /* Set the border properties of the box */
+    color: black; /* Set the text color inside the box */
+  }

@@ -1,0 +1,101 @@
+body {
+  background-color: #bbbbbb;
+  display: flex;
+  justify-content: center;
+}
+
+h1 { /* Title */
+  font-size: 60px;
+  margin-left: 20px;
+}
+h2 { /* Name */
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+h3 { /* TOC Title */
+  font-size: 20px;
+  margin-top: 3px;
+  margin-left: 12px;
+}
+h4 { /* Information Title */
+  font-size: 24px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+h5 { /* Information subtitle */
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+p1 { /* Information Content */
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+p10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container1 { /* Stack Vertically */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.container2 { /* Align Horizontally */
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.container3 { /* Align Horizontally (For Title and Image) */
+  display: flex;
+  flex-direction: row;
+  gap: 240px;
+}
+
+.title-box {
+  width: 800px; /* Set the width of the box */
+  height: 200px; /* Set the height of the box */
+  border: 2px solid black; /* Set the border properties of the box */
+  color: black; /* Set the text color inside the box */
+  white-space: nowrap;
+}
+
+.image-box {
+  margin-left: -200px;
+  position: relative;
+}
+
+.toc-box {
+  
+  width: 180px; /* Set the width of the box */
+  height: 30px; /* Set the height of the box */
+  border: 2px solid black; /* Set the border properties of the box */
+  color: black; /* Set the text color inside the box */
+  margin-top: 8px;
+}
+
+.table-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* Set the width of the box */
+  height: 700px; /* Set the height of the box */
+  border: 2px solid black; /* Set the border properties of the box */
+  text-align: left; /* Center the text inside the box */
+  color: black; /* Set the text color inside the box */
+  margin-top: 50 px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 594px; /* Set the width of the box */
+  height: 700px; /* Set the height of the box */
+  border: 2px solid black; /* Set the border properties of the box */
+  color: black; /* Set the text color inside the box */
+}
